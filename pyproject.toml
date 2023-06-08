@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vitrading"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nameko = "^2.14.1"
+dynaconf = "^3.1.12"
+alembic = "^1.10.2"
+psycopg2-binary = "^2.9.5"
+sqlalchemy = "^2.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
